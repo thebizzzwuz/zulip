@@ -215,8 +215,8 @@
 
         .modal__content {
             /* When showing read receipts, we use simplebar
-            to make the list scrollable.  It requires this to
-            be flex. */
+               to make the list scrollable.  It requires this to
+               be flex. */
             display: flex;
 
             /* Setting a minimum height prevents the loading indicator
@@ -410,7 +410,7 @@
         cursor: not-allowed;
 
         /* The background-color of select elements inside modal is different than the others in
-        settings pages, because the background of the modal is brighter than the setting page. */
+           settings pages, because the background of the modal is brighter than the setting page. */
         background-color: hsl(0deg 0% 90%);
 
         /* This is reset for other browsers to use Chrome's opacity. */
@@ -471,7 +471,7 @@
 #add-poll-modal,
 #add-todo-modal {
     /* this height allows 3-4 option rows
-    to fit in without need for scrolling */
+       to fit in without need for scrolling */
     height: 32.1428em; /* 450px / 14px em */
     overflow: hidden;
 
